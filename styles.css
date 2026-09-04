@@ -1,0 +1,70 @@
+#name{
+    font-size:60px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:blueviolet;
+    margin:30px auto;
+}
+.choi1 , .choi2 , .choi3{
+    font-size: 20px;
+    color:black;
+    background-color: red;
+    margin-top: 40px;
+}
+
+.choi1:active{
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+.choi2:active{
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+.choi3:active{
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+#res{
+    font-size:40px;
+    background-color: yellowgreen;
+    margin: 50px;
+    margin-top:100px;
+}
+#res:active{
+    font-size:40px;
+    background-color: bisque;
+    margin: 50px;
+    margin-top:100px;
+}
+.idou{
+    font-size:30px;
+    font-weight: bold;
+    background-color: white;
+    margin:10px;
+    margin-top: 50px;
+}
+.idou:hover{
+    font-size:30px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    margin:10px;
+    margin-top: 50px;
+}
+.seikai{
+    font-size: 80px;
+    margin:50px;
+    color: red;
+}
+.huseikai{
+    font-size: 80px;
+    margin:50px;
+    color: blue;
+}
+.kaisetu{
+    font-size: 30px;
+    margin: 10px;
+}
+.kotae{
+    color: red;
+    font-size:25px;
+    margin:10px;
+}

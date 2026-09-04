@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WEBアプリケーション最終課題</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+
+  <body style="text-align:center;">
+    <header>WEBアプリケーション最終課題</header>
+    <h2 id="name">偉人クイズ</h2>
+    <h2>問題</h2><br>
+    <div>この人物は外国の数学者で、幼い頃から数学の才に秀でており、それを示す有名な逸話に彼が小学校の算数の授業で先生から出された「1から100までの数字を全て足せ」という問題に対してわずか数秒で「5050」という解答を導き出して教師を驚かせたというものがある。</div>
+    <button onclick="choices1()" class="choi1">選択肢1：「カール・フリードリヒ・ガウス」</button><br>
+    <button onclick="choices2()" class="choi2">選択肢2：「ピタゴラス」</button><br>
+    <button onclick="choices3()" class="choi3">選択肢3：「アイザックニュートン」</button><br>
+
+    <button onclick="result()" id="res">この選択肢で正解</button><br>
+
+    <button onclick="back()" class="idou">⇐前の問題へ戻る</button>
+    <button onclick="next()" class="idou">次の問題へ進む⇒</button><br>
+  </body>
+</html>
